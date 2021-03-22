@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Poppins:wght@200;300&family=Raleway&display=swap");
+$theme-color: (
+  "primary": #6200ea,
+  "success": #33691e,
+  "danger": #f50057,
+  "warning": #ffab00,
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding-top: 4rem;
+  font-family: "Noto Sans KR", sans-serif;
+}

@@ -1,0 +1,15 @@
+.action {
+  opacity: 0;
+}
+tr:hover .action {
+  opacity: 1;
+}
+.action a {
+  color: #444;
+  &:hover {
+    color: rgb(141, 141, 141);
+  }
+}
+.card-bg {
+  color: #1b1b1bf6;
+}

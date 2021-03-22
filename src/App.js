@@ -1,20 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import User from './components/User';
-import { Children } from 'react';
-
+import React from 'react';
+import './styles/App.scss';
+import Home from './components/Home';
+import {Provider} from 'react-redux';
+import store from './store/store';
 function App() {
 
     
   return (
-    <div className="App">
-    <User>
+    <Provider store={store}>
       <div>
-
-        <h2>M Bilal</h2>
-      </div>
-    </User>
-    </div>
+      <Home/>
+   </div>
+    </Provider>
   );
 }
 
